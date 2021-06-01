@@ -11,36 +11,48 @@ public class Task1 {
         System.out.println();
         compareNumbers();
     }
+
     public static void printThreeWords() {
 
         System.out.println("Orange");
         System.out.println("Banana");
         System.out.println("Apple");
     }
+
     public static void checkSumSign() {
         int a = 2;
         int b = 2;
         int c = b + a;
-        if (c >= 0)
+        if (c >= 0) {
             System.out.println("Сумма положительная");
-        else
+        }
+        else {
             System.out.println("Сумма отрицательная");
+        }
     }
+
+
     public static void printColor() {
         int value = 11;
-        if (value <= 0)
+        if (value <= 0) {
             System.out.println("Красный");
-        else if (value > 0 && value <= 100)
+        }
+        else if (value > 0 && value <= 100) {
             System.out.println("Желтый");
-        else
+        }
+        else {
             System.out.println("Зеленый");
+        }
     }
+
     public static void compareNumbers() {
         int b = 3;
         int a = 2;
-        if (a >= b)
+        if (a >= b) {
             System.out.println("a>=b");
-        else
+        }
+        else {
             System.out.println("a<b");
+        }
     }
 }
